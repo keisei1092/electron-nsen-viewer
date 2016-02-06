@@ -1,6 +1,6 @@
 # electron-nsen-player
 
-Electronで作ったNsen(http://live.nicovideo.jp/watch/nsen/vocaloid)を見る何かです。
+Electronで作ったNsen( http://live.nicovideo.jp/watch/nsen/vocaloid )を見る何かです。
 
 * 常に最前面で表示されます。
 * サイズを変更できます。
