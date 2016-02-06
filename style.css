@@ -1,0 +1,18 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+webview {
+  display: inline-block;
+  width: 3072px;
+  height: 3072px;
+  transform: scale(0.4);
+  transform-origin: 0;
+}
