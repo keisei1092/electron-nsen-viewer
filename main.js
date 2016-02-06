@@ -3,6 +3,8 @@
 const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
+app.commandLine.appendSwitch('ppapi-flash-path', 'PepperFlashPlayer.plugin');
+app.commandLine.appendSwitch('ppapi-flash-version', '20.0.0.286');
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
