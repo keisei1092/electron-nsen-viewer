@@ -11,6 +11,7 @@ Electronで作ったNsen( http://live.nicovideo.jp/watch/nsen/vocaloid )を見�
 
 * `git clone git@github.com:keisei1092/electron-nsen-viewer.git`
 * https://github.com/atom/electron/blob/master/docs/tutorial/using-pepper-flash-plugin.md を参考にFlash Player再生できるようにしてください(投げ槍ですまん
+* `npm install`
 * `npm start`
 * webviewはすごく下の方にあるので、まず透明な部分を一度クリックした後<kbd>↓</kbd>でwebviewがいるところまでスクロールしてください
 * ニコニコにログインしてください
