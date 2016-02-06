@@ -1,4 +1,21 @@
-# electron-quick-start
+# electron-nsen-player
+
+Electronで作ったNsen(http://live.nicovideo.jp/watch/nsen/vocaloid)を見る何かです。
+
+* 常に最前面で表示されます。
+* サイズを変更できます。
+  * ウィンドウサイズを変更し、必要に応じてwebview部分をピンチしてズームしてください。
+* ウィンドウバーがありません。
+
+## 使い方
+
+* `git clone git@github.com:keisei1092/electron-nsen-viewer.git`
+* `npm start`
+* webviewはすごく下の方にあるので、まず透明な部分を一度クリックした後<kbd>Down</kbd>でwebviewがいるところまでスクロールしてください
+* 全画面webviewが覆うぐらいまで移動したら、2本指でNsenの画面でウィンドウを覆うまでスクロール(ズームまたはズームアウト)してください
+* 必要に応じてウィンドウのサイズを大きくして、webview部は2本指ズームで大きくしてください
+
+以下clone元のelectron-quick-startのREADME.md残しておきます
 
 **Clone and run for a quick way to see an Electron in action.**
 
